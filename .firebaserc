@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "johubar-activity"
+  },
+  "targets": {
+    "johubar-activity": {
+      "hosting": {
+        "dev": [
+          "johubar-activity-dev"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

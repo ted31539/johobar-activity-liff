@@ -1,0 +1,49 @@
+{
+  "name": "liff-activity",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=local vite --mode test",
+    "build": "vite build",
+    "build:dev": "NODE_ENV=development vite build --mode development",
+    "build:prod": "NODE_ENV=production vite build --mode production",
+    "deploy:dev": "yarn build:dev; firebase deploy --only hosting:dev",
+    "deploy:prod": "yarn build:prod; firebase deploy --only hosting:prod",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.3.3",
+    "@line/liff": "^2.23.0",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
+    "@mui/x-date-pickers": "^6.18.6",
+    "axios": "^1.6.3",
+    "dayjs": "^1.11.10",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "match-sorter": "^6.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
+    "react-router-dom": "^6.21.1",
+    "sort-by": "^1.2.0",
+    "uuid": "^9.0.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "sass": "^1.69.7",
+    "vite": "^5.0.8"
+  }
+}
