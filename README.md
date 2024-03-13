@@ -14,7 +14,7 @@
 
 ### 快速試用
 
-![](https://imgur.com/a/qURKgBO)
+https://imgur.com/a/qURKgBO
 
 1. 在 LINE 加入測試群組
 2. 輸入『我要辦活動』
